@@ -44,6 +44,6 @@ function createVehicleClasses() {
 
     myCar.drive(500);
     console.log(myCar.getDetails());
-}
+} 
 
 createVehicleClasses();
