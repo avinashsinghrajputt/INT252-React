@@ -1,0 +1,36 @@
+/* PricingTable.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .icon {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .price {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }

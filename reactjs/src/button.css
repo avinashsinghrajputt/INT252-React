@@ -1,0 +1,10 @@
+/* Button.css */
+.button {
+    padding: 10px 20px;
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+  }

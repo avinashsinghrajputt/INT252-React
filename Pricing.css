@@ -1,0 +1,44 @@
+.pricing-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
